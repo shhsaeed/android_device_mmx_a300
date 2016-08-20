@@ -14,7 +14,7 @@
 
 * Compilation
 
-        # repo init -u git://github.com/fire855/android.git -b cm-12.1
+        # repo init -u git://github.com/shhsaeed/android.git -b cm-13.0
         
         # repo sync
         
@@ -35,4 +35,3 @@ Services requires root:
   * surfaceflinger depends on sched_setscheduler calls, unable to change process priority from 'system' user (default user 'system')
 
   * mediaserver depends on /data/nvram folder access, unable to do voice calls from 'media' user (default user 'media')
-# android_device_mmx_a300
